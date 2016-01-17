@@ -73,7 +73,7 @@ Az új játékleírás felvétele roppant egyszerűen zajlik. Egy legördülő m
 - Elérhető játékleírások listája: http://bead3-jani1404.c9users.io/games/list
 - Új játékleírás hozzáadása: http://bead3-jani1404.c9users.io/games/new
 
-### Adatbázismodell
+### Adatmodell
 
 Hozzáadás dátuma, Kategória, Név és leírás
 
@@ -83,36 +83,35 @@ Az oldal látogatói tulajdonképpen minden adathoz hozzáférhetnek. Így egyet
 
 ### Könyvtárszerkezet
 
->.
-├── app
-|	├── components
-|	├── controllers
-|	├── helpers
-|	├── models
-|	├── pods
-|	│   ├── application
-|	│   ├── components
-|	│   │   ├── error-detail
-|	│   │   ├── error-list
-|	│   │   └── new-error-form
-|	│   ├── error
-|	│   ├── games
-|	│   │   ├── edit
-|	│   │   ├── list
-|	│   │   ├── new
-|	│   │   └── view
-|	│   └── index
-|	├── routes
-|	├── styles
-|	└── templates
-|		└── components
-|
-├── bower_components
-├── config
-├── dist
-├── docs
-├── node_modules
-├── public
-├── tests
-├── tmp
-└── vendor
+-  .
+-  ├── app
+-  |	├── components
+-  |	├── controllers
+-  |	├── helpers
+-  |	├── models
+-  |	├── pods
+-  |	│   ├── application
+-  |	│   ├── components
+-  |	│   │   ├── error-detail
+-  |	│   │   ├── error-list
+-  |	│   │   └── new-error-form
+-  |	│   ├── error
+-  |	│   ├── games
+-  |	│   │   ├── edit
+-  |	│   │   ├── list
+-  |	│   │   ├── new
+-  |	│   │   └── view
+-  |	│   └── index
+-  |	├── routes
+-  |	├── styles
+-  |	└── templates
+-  |		└── components
+-  ├── bower_components
+-  ├── config
+-  ├── dist
+-  ├── docs
+-  ├── node_modules
+-  ├── public
+-  ├── tests
+-  ├── tmp
+-  └── vendor
