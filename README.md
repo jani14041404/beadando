@@ -69,11 +69,11 @@ Az új játékleírás felvétele roppant egyszerűen zajlik. Egy legördülő m
 
 ### Végpontok
 
-Főoldal: http://bead3-jani1404.c9users.io/
-Elérhető játékleírások listája: http://bead3-jani1404.c9users.io/games/list
-Új játékleírás hozzáadása: http://bead3-jani1404.c9users.io/games/new
+- Főoldal: http://bead3-jani1404.c9users.io/
+- Elérhető játékleírások listája: http://bead3-jani1404.c9users.io/games/list
+- Új játékleírás hozzáadása: http://bead3-jani1404.c9users.io/games/new
 
-### Adatmodell
+### Adatbázismodell
 
 Hozzáadás dátuma, Kategória, Név és leírás
 
@@ -83,7 +83,7 @@ Az oldal látogatói tulajdonképpen minden adathoz hozzáférhetnek. Így egyet
 
 ### Könyvtárszerkezet
 
-.
+>.
 ├── app
 |	├── components
 |	├── controllers
