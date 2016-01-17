@@ -1,0 +1,14 @@
+{{#each messages}}
+<div class="alert alert-dismissible alert-success">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    {{this}}
+</div>
+{{/each}}
+
+<div class="page-header"> <h1>Elérhető játékleírások</h1> </div>
+
+{{log model}}
+{{error-list games=model}}
+
+<p>{{link-to "Új játék feltöltése" "games.new" class="btn btn-success" id="newErrorButton"}}</p>
+{{!--<a href="/games/new" class="btn btn-success" id="newErrorButton">Új játék feltöltése</a>--}}

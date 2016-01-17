@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/hibabejelento/tmp/broccoli_merge_trees-input_base_path-lWhk1nbq.tmp/2/initializers/app-version.js

@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/babel-output_path-atvS87KK.tmp/gyak09/tests/integration/pods/components/error-detail/component-test.js

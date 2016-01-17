@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/hibabejelento/tmp/funnel-input_base_path-StQD225e.tmp/0/app-prefix.js

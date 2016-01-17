@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/hibabejelento/tmp/jshinter-output_path-x5T83SYR.tmp/integration/pods/components/error-detail/component-test.jshint.js

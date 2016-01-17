@@ -1,0 +1,27 @@
+<table class="table table-striped table-hover " id="errorTable">
+    <thead>
+        <tr>
+            <th>Hozzáadva</th>
+            <th>Játék típusa</th>
+            <th>Név és leírás</th>
+            <th>Lehetőségek</th>
+        </tr>   
+    </thead>
+
+    <tbody>
+        {{#each games}}
+        <tr>
+            <td>{{date}}</td>
+            <td>{{location}}</td>
+            <td><span class="badge">{{numberOfMessages}}</span> {{description}}</td>
+            <td>
+
+                {{link-to "MEGTEKINT" "games.view" this class="btn btn-primary btn-sm"}}
+				{{link-to "SZERKESZT" "games.edit" this class="btn btn-primary btn-sm"}}
+                <button {{action "deleteError" this}} class="btn btn-primary btn-sm">TÖRÖL</button>
+
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

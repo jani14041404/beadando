@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/tmp/jshinter-output_path-1ah5Ugv3.tmp/unit/pods/utvonal/controller-test.jshint.js
