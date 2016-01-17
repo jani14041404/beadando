@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-    errors: Ember.Object.create(),
+    games: Ember.Object.create(),
     
     actions: {
         submit() {
@@ -18,9 +18,9 @@ export default Ember.Component.extend({
         var location = this.$('#helyszin').val();
         var description = this.$('#leiras').val();
         
-        this.set('errors.location', location === '' ? 'Játékleírás kitöltése kötelező' : '');
-        this.set('errors.description', description === '' ? 'Játékleírás kitöltése kötelező' : '');
+        this.set('games.location', location === '' ? 'Játékleírás kitöltése kötelező' : '');
+        this.set('games.description', description === '' ? 'Játékleírás kitöltése kötelező' : '');
         
-        return this.get('errors.location') === '' && this.get('errors.description') === '';
+        return this.get('games.location') === '' && this.get('games.description') === '';
     }
 });

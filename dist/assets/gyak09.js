@@ -449,7 +449,7 @@ define('gyak09/pods/components/new-error-form/component', ['exports', 'ember'], 
     'use strict';
 
     exports['default'] = Ember['default'].Component.extend({
-        errors: Ember['default'].Object.create(),
+        games: Ember['default'].Object.create(),
 
         actions: {
             submit: function submit() {
@@ -466,10 +466,10 @@ define('gyak09/pods/components/new-error-form/component', ['exports', 'ember'], 
             var location = this.$('#helyszin').val();
             var description = this.$('#leiras').val();
 
-            this.set('errors.location', location === '' ? 'Játékleírás kitöltése kötelező' : '');
-            this.set('errors.description', description === '' ? 'Játékleírás kitöltése kötelező' : '');
+            this.set('games.location', location === '' ? 'Játékleírás kitöltése kötelező' : '');
+            this.set('games.description', description === '' ? 'Játékleírás kitöltése kötelező' : '');
 
-            return this.get('errors.location') === '' && this.get('errors.description') === '';
+            return this.get('games.location') === '' && this.get('games.description') === '';
         }
     });
 
@@ -2403,7 +2403,7 @@ catch(err) {
 if (runningTests) {
   require("gyak09/tests/test-helper");
 } else {
-  require("gyak09/app")["default"].create({"name":"gyak09","version":"0.0.0+"});
+  require("gyak09/app")["default"].create({"name":"gyak09","version":"0.0.0+099ff96b"});
 }
 
 /* jshint ignore:end */
