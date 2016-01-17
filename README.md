@@ -9,14 +9,14 @@ NEPTUN: QFYA09
 Egy webes vastagkliens, azaz egyoldalas alkalmazás készítése Ember.js segítségével.
 A feladatnak minimálisan tartalmaznia kell:
 
--legalább két modellt, egy-sok kapcsolatban
--legalább 1 űrlapot
--legalább 1 listázó oldalt
--legyen lehetőség új felvételére
--legyen lehetőség meglévő szerkesztésére
--legyen lehetőség meglévő törlésére
--REST API végpont kialakítása
--szerveroldali perzisztálás fájlba
+- legalább két modellt, egy-sok kapcsolatban
+- legalább 1 űrlapot
+- legalább 1 listázó oldalt
+- legyen lehetőség új felvételére
+- legyen lehetőség meglévő szerkesztésére
+- legyen lehetőség meglévő törlésére
+- REST API végpont kialakítása
+- szerveroldali perzisztálás fájlba
 
 ### Nem funkcionális követelmények
 
