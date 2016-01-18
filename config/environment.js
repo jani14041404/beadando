@@ -19,7 +19,7 @@ module.exports = function(environment) {
       // when it is created
     }
   };
-  
+   
   ENV.contentSecurityPolicy = {
       'default-src': "'none'",
       'script-src': "'self'",
